@@ -1,8 +1,8 @@
 # The PSudo Books
 
-This repository contains the source code of three books: "The PSudo Guidebook", "The PSudo Reference Book", and "The PSudonomicon".
+This repository contains the source code of three books: the "PSudo Guidebook", the "PSudo Reference Book", and the "PSudonomicon".
 
-These books are available on our website. You can see "The PSudo Guidebook" from [here](https://psudolang.github.io/book/guide), "The PSudo Reference" from [here](https://psudolang.github.io/book/reference), and "The PSudonomicon" from [here](https://psudolang.github.io/book/nomicon).
+These books are available on our website. You can see the "PSudo Guidebook" from [here](https://psudolang.github.io/book/guide), the "PSudo Reference" from [here](https://psudolang.github.io/book/reference), and the "PSudonomicon" from [here](https://psudolang.github.io/book/nomicon).
 
 ## Requirements
 
