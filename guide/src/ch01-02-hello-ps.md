@@ -5,7 +5,7 @@ Traditionally, When starting a new programming language,
 Write down a little program prints `Hello, world!`.
 So, Let's try it!
 
-> Note: This book assumbes you to know command-line interface.
+> Note: This book assumes you to know command-line interface.
 > This book won't limit you to use editor or development tools
 > and place file where. Just develop on your favorite environment.
 
