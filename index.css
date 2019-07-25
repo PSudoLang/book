@@ -23,10 +23,6 @@
   background-color: hsl(180, 35%, 75%);
 }
 
-.section.getting-started button {
-  background-color: hsl(180, 35%, 75%);
-}
-
 .section.digging-deeper {
   background-color: hsl(60, 65%, 65%);
 }
@@ -61,6 +57,7 @@
 .card > p {
   height: 8em;
   border-bottom: 1px dashed currentColor;
+  text-align: center;
 }
 
 .card button {
