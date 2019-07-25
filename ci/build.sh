@@ -14,4 +14,4 @@ mkdir build
 cp -r ./guide/book ./build/guide
 cp -r ./nomicon/book ./build/nomicon
 cp -r ./reference/book ./build/reference
-cp -r ./basis ./build
+cp -r ./basis/* ./build
