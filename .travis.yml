@@ -5,7 +5,7 @@ branches:
   only:
   - master
 before_script:
-  - cargo install mdbook --vers 0.2.3 --force
+  - cargo install mdbook --vers 0.2.3 || true
 script:
   - bash ci/build.sh
 after_script: []
