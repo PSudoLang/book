@@ -1,0 +1,6 @@
+[book]
+authors = ["RanolP"]
+language = "en"
+multilingual = false
+src = "src"
+title = "PSudo Reference Book"

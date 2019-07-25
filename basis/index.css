@@ -1,0 +1,72 @@
+.phrase {
+  font-size: 4em;
+  font-weight: bolder;
+
+  text-align: center;
+
+  margin: 0;
+  padding: 4rem 2rem;
+
+  background-color: hsl(230, 35%, 35%);
+  color: hsl(230, 5%, 85%);
+}
+
+.section {
+  padding: 2em;
+}
+
+.section > h2 {
+  text-align: center;
+}
+
+.section.getting-started {
+  background-color: hsl(180, 35%, 75%);
+}
+
+.section.getting-started button {
+  background-color: hsl(180, 35%, 75%);
+}
+
+.section.digging-deeper {
+  background-color: hsl(60, 65%, 65%);
+}
+
+.section.mastering-psudo {
+  background-color: hsl(280, 35%, 75%);
+}
+
+.card-list {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-list > .card {
+  margin-right: 2em;
+}
+
+.card-list > .card:last-child {
+  margin-right: 0;
+}
+
+.card {
+  width: 16em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card > p {
+  height: 8em;
+  border-bottom: 1px dashed currentColor;
+}
+
+.card button {
+  flex: initial;
+  width: 100%;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+}
