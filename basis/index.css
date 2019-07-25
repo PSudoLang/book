@@ -57,6 +57,7 @@
 .card > p {
   height: 8em;
   border-bottom: 1px dashed currentColor;
+  text-align: center;
 }
 
 .card button {
