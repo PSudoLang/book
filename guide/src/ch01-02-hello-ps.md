@@ -50,7 +50,7 @@ Save the file and go back to your terminal window.
 Then run following command.
 
 ```sh
-psudo run hello_world.ps
+psudo run hello-world.ps
 ```
 
 Whatever your OS is. It will print `Hello, world` on your terminal.
