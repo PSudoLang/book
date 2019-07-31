@@ -207,24 +207,53 @@ On this chapter, we will learn these stuff:</p>
 </ul>
 <a class="header" href="#installation" id="installation"><h1>Installation</h1></a>
 <p>PSudo will be able to download in the future. T_T</p>
+<a class="header" href="#troubleshooting" id="troubleshooting"><h2>Troubleshooting</h2></a>
+<p>We'll fill this section as soon as possible!</p>
 <a class="header" href="#hello-ps" id="hello-ps"><h1>Hello, PS</h1></a>
 <p>We've installed PSudo, It's time to try!
 Traditionally, When starting a new programming language,
-Write down a little program prints <code>Hello, world!</code>.
+we write down a little program that prints <code>Hello, world!</code> on a terminal.
 So, Let's try it!</p>
 <blockquote>
 <p>Note: This book assumes you to know command-line interface.
 This book won't limit you to use editor or development tools
-and place file where. Just develop on your favorite environment.</p>
+and place the file where. Just develop in your favorite environment.</p>
 </blockquote>
 <a class="header" href="#create-a-folder" id="create-a-folder"><h2>Create a Folder</h2></a>
-<p>First, create a folder where store code.
-It's not a matter where to place code,
-But this book assumes that you're creating a <code>psudo-solutions</code> folder under the home directory.</p>
 <blockquote>
 <p>Note: PSudo never requires folder because codes and compiler configurations are stored in a single file.
 But we recommend you to create a folder and store all the PSudo codes on it. Because it is easier to organize.</p>
 </blockquote>
+<p>First, create a folder where store code.
+It's not a matter where to place code,
+But this book assumes that you're creating a <code>psudo-solutions</code> folder in your home directory.
+Open a terminal and enter following commands to create the folder.</p>
+<p>for Linux, macOS, Windows:</p>
+<pre><code class="language-sh">mkdir ~/psudo-solutions
+cd ~/psudo-solutions
+</code></pre>
+<p>for Windows CMD:</p>
+<pre><code class="language-cmd">mkdir &quot;%USERPROFILE%\psudo-solutions&quot;
+cd /d &quot;%USERPROFILE%\psudo-solutions&quot;
+</code></pre>
+<a class="header" href="#write-and-run-your-first-solution" id="write-and-run-your-first-solution"><h2>Write and Run Your First Solution</h2></a>
+<p>Next, Make a new source file and call it <code>hello-world.ps</code>.
+PSudo file should end with <code>.ps</code> extension.
+If you're using more than one word on your file name,
+use the hyphen to separate them.</p>
+<p>Now open the file and write down below codes.</p>
+<pre><code class="language-psudo">output &quot;Hello, world!&quot;
+</code></pre>
+<p>Save the file and go back to your terminal window.
+Then run following command.</p>
+<pre><code class="language-sh">psudo run hello_world.ps
+</code></pre>
+<p>Whatever your OS is. It will print <code>Hello, world</code> on your terminal.
+If you didn't see these output,
+Go to <a href="./ch01-01-installation.html#troubleshooting">Chapter 1: Installation - Troubleshooting</a> part to get help.</p>
+<p>However, if you did these jobs successfully, Congratulations!
+You've written a PSudo Solution!
+Which means, from now on you're <em>PSudoer</em> - welcome!</p>
 
                     </main>
 
